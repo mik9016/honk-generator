@@ -16,7 +16,7 @@ app.use(function(req, res, next) {
     res.sendFile(path.join(__dirname + '/honk.mp3'));
   });
 
-  app.listen(3000);
+  app.listen(process.env.PORT ||3000);
   
   
 
