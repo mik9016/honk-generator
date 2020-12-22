@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    background-color: #141414;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+#pic{
+    text-align: center;
+}
+#pic img {
+    width: 300px;
+    
+}
+
+#cos{
+    display: none;
+}
+button{
+   
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 128px;
+    height: 32px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+button:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
